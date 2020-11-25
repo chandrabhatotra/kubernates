@@ -19,7 +19,7 @@ spec:
               - containerPort: 8080
             env: 
               - name: spring.datasource.url
-                value: jdbc:mariadb://mariadb.default.svc.cluster.local:3306/app?useUnicode=yes&characterEncoding=UTF-8
+                value: jdbc:mariadb://mariadb.chandra.svc.cluster.local:3306/app?useUnicode=yes&characterEncoding=UTF-8
               - name: spring.datasource.username
                 value: app
               - name: spring.datasource.password
